@@ -1,7 +1,5 @@
 #!/bin/bash
-sudo su
-yes | apt-get update
-yes | apt-get upgrade
-yes | apt-get dist-upgrade
-yes | apt-get autoremove
-exit
+yes | sudo apt update;
+yes | sudo apt upgrade;
+yes | sudo apt dist-upgrade;
+yes | sudo apt autoremove;
